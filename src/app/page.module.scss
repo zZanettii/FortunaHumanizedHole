@@ -1,0 +1,10 @@
+@import './styles/mixins/colors.scss';
+
+.maxContainer{
+    background-image: url(../../public/fundoAna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    //background-image: linear-gradient($primary-color,$thirdy-color);
+  }

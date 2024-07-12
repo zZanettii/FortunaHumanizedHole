@@ -1,0 +1,40 @@
+@import '../app/styles/mixins/colors.scss';
+
+.Navbar{
+    width: 100vw;
+    //background-color: $seccondary-color;
+    background-image: linear-gradient($primary-color,$fourth-color);
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:center;
+}
+
+.logoImage{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    margin-left: 70px;
+}
+
+.logoLink{
+    color: $seccondary-color;
+    background-color: $fourth-color;
+    text-decoration: none;
+    border: 2px;
+    border-radius: 10px;
+    margin-left: 150px;
+    align-items: stretch;
+    padding: 4px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: medium;
+    transition: 0.3 ease;
+}
+
+.logoLink:hover{
+    color: $fourth-color;
+    background-color: $seccondary-color;
+}
+
